@@ -1,6 +1,6 @@
 import path from "path";
 import { defineConfig } from "vite";
-import react from "vite-react-swc";   // ✅ switched to vite-react-swc
+import react from "@vitejs/plugin-react-swc";   // ✅ correct plugin
 import { cloudflare } from "@cloudflare/vite-plugin";
 import { mochaPlugins } from "@getmocha/vite-plugins";
 
